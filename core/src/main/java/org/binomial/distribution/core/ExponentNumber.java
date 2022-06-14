@@ -22,7 +22,7 @@ record ExponentNumber(int number) {
     @Override
     public String toString() {
         String sign = number < 0 ? "\u207B" : "";
-        String converted = Arrays.stream(Integer.toString(number).split(""))
+        String converted = Arrays.stream(Integer.toString(Math.abs(number)).split(""))
                 .map(Integer::parseInt)
                 .map(EXPONENT_NUMBERS::get)
                 .map(String::valueOf)
