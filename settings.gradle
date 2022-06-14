@@ -1,0 +1,3 @@
+rootProject.name = 'binomial-distribution'
+include('core', 'cli')
+
