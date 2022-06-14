@@ -22,7 +22,7 @@ public class PoweredMemberTest {
     }
 
     @ParameterizedTest
-    @ValueSource(ints = {2, 3, 4, 5, 6, 7, 8, 9, 10, 1100})
+    @ValueSource(ints = {-2300, -5, -3, -1, 2, 3, 8, 1100})
     void itShouldRaiseIt(int exponent) {
         var underTest = new PoweredMember("a", exponent);
         assertEquals("a" + new ExponentNumber(exponent), underTest.toString());
