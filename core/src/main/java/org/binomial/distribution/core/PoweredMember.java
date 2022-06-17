@@ -6,7 +6,7 @@ record PoweredMember(String name, int exponent) {
         return switch (exponent) {
             case 0 -> "";
             case 1 -> name;
-            default -> name + new ExponentNumber(exponent);
+            default -> name + new ExponentCharacter(exponent);
         };
     }
 }

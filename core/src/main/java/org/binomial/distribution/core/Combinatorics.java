@@ -1,8 +1,8 @@
 package org.binomial.distribution.core;
 
-public class MathUtils {
+public class Combinatorics {
 
-    private MathUtils() {
+    private Combinatorics() {
     }
 
     public static int ncr(int n, int k) {

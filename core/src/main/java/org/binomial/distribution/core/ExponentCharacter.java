@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-record ExponentNumber(int number) {
+record ExponentCharacter(int number) {
 
     private static final Map<Integer, Character> EXPONENT_NUMBERS = Map.of(
             0, '\u2070',
