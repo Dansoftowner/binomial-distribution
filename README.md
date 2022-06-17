@@ -1,4 +1,4 @@
-# Simple binomial distribution program
+# Binomial coefficient calculator
 
 Basic application that implements the [binomial coefficients](https://en.wikipedia.org/wiki/Binomial_coefficient) 
 mathematical pattern.
