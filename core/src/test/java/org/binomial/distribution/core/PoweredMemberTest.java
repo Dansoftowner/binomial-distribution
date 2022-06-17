@@ -25,6 +25,6 @@ public class PoweredMemberTest {
     @ValueSource(ints = {-2300, -5, -3, -1, 2, 3, 8, 1100})
     void itShouldRaiseIt(int exponent) {
         var underTest = new PoweredMember("a", exponent);
-        assertEquals("a" + new ExponentNumber(exponent), underTest.toString());
+        assertEquals("a" + new ExponentCharacter(exponent), underTest.toString());
     }
 }
