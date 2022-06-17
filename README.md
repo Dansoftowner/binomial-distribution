@@ -1,6 +1,6 @@
 # Simple binomial distribution program
 
-Basic application that implements the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution) 
+Basic application that implements the [binomial coefficients](https://en.wikipedia.org/wiki/Binomial_coefficient) 
 mathematical pattern.
 
 ## Run CLI App
