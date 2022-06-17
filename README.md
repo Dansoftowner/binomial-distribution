@@ -1,6 +1,6 @@
 # Binomial expansion calculator
 
-Basic application that implements the [Binomial theorem](https://en.wikipedia.org/wiki/Binomial_theorem) 
+Simple application that implements the [Binomial theorem](https://en.wikipedia.org/wiki/Binomial_theorem) 
 mathematical pattern.
 
 ## Run CLI App
